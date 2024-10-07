@@ -1,4 +1,4 @@
-# google_maps_app
+# Doctor's appointments app
 
 A new Flutter project.
 
