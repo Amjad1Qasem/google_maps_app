@@ -1,4 +1,4 @@
-package com.example.google_maps_app
+package com.department_doctor_app
 
 import io.flutter.embedding.android.FlutterActivity
 

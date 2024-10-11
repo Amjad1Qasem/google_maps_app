@@ -1,4 +1,4 @@
-name: google_maps_app
+name: department_doctor_app
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -54,6 +54,11 @@ dependencies:
   # Localization
   intl: ^0.19.0
   easy_localization: ^3.0.7
+  change_app_package_name: ^1.4.0
+  # Images
+  flutter_svg: ^2.0.10+1
+  # Adapting screen and fonts size
+  flutter_screenutil: ^5.9.3
 
 dev_dependencies:
   flutter_test:
@@ -78,8 +83,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/images/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
