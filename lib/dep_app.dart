@@ -1,6 +1,5 @@
 import 'package:department_doctor_app/core/routing/app_router.dart';
 import 'package:department_doctor_app/core/routing/routs.dart';
-import 'package:department_doctor_app/core/theme/app_colors.dart';
 import 'package:department_doctor_app/core/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -18,8 +17,8 @@ class DepApp extends StatelessWidget {
         title: 'Doctor App',
         theme: AppTheme.light,
         darkTheme: AppTheme.dark,
-        onGenerateRoute: appRouter.generateRoute,
         debugShowCheckedModeBanner: false,
+        onGenerateRoute: appRouter.generateRoute,
         initialRoute: AppRouterPath.onBoardingScreen,
       ),
     );
