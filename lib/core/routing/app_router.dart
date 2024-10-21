@@ -1,7 +1,7 @@
 import 'package:department_doctor_app/core/routing/routs.dart';
 import 'package:department_doctor_app/core/utils/console_logger.dart';
+import 'package:department_doctor_app/presentations/login/ui/screen/login_screen.dart';
 import 'package:department_doctor_app/presentations/onboarding/ui/screen/onboarding_screen.dart';
-import 'package:department_doctor_app/presentations/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {
@@ -13,8 +13,8 @@ class AppRouter {
       case AppRouterPath.onBoardingScreen:
         return MaterialPageRoute(
             builder: (context) => const OnBoardingScreen());
-      case AppRouterPath.splachScreen:
-        return MaterialPageRoute(builder: (context) => const SplashScreen());
+      case AppRouterPath.loginScreen:
+        return MaterialPageRoute(builder: (context) => const LoginScreen());
       default:
         return null;
       // default:
